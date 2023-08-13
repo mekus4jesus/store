@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stores</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+   <div class="navbar">
+      <div class="name">
+        <div class="big-text">
+            <h1>Ugochi Supermarket</h1>
+            <span id="small-text">N0 5b old Okigwe road Amajk</span>
+        </div>
+      </div>
+
+      <form  id="form" action=""></form>
+    <div class="search">
+        <div class="searchbtn">
+            <input type="search" name="" id="srh" placeholder="Search">
+        </div>
+         <div class="btn"> 
+          <input id="btnsearch" type="submit" value="search">
+        </div>
+      </div>
+    </form>
+    <div class="logo">
+      <img src="assets/img/icons8-user-48.png" alt="" srcset="">
+    </div>
+   </div> 
+   <div class="side-middle">
+      <div class="side">
+        <ul>
+          <li id="dashboard">Dashboard</li>
+          <li id="sales">Sales/Billing</li>
+          <li id="new-stock">Add New Stock</li>
+          <li id="new-product">Add New Product</li>
+          <li id="prd-list">Product List</li>
+          <li id="sign-out">Sign Out</li>
+        </ul>
+      </div>
+    <!-- The Start of the main body -->
+    <div class="middle">
+    <div class="dashbord-area">
+        <h3>Dashboard</h3>
+       </div>
+          <div class="col-3">
+            <div class="cart">
+              <div class="txt-tsale">
+                Total Sales
+              </div>
+              <div class="num-cart">
+                <div id="num">358</div>
+                <div id="cart-icon">
+                  <img src="assets/img/icons8-cart-48.png" alt="" srcset="">
+                </div>
+              </div>
+            </div>
+            <div class="cart amt">
+              <div class="txt-tsale tamt">
+                 Total Sales Amount
+              </div>
+               <div class="num-cart num-amt">
+                <div id="num-am">
+                  12,00000
+                </div>
+                <div id="wallet-icon">
+                  <img src="assets/img/icons8-wallet-64.png" alt="" srcset="">
+                </div>
+               </div>
+            </div>
+            <div class="cart amt item">
+              <div class="txt-tsale tamt titem">
+                Total Items
+              </div>
+                <div class="num-cart num-item">
+                  <div id="num-item">
+                    208
+                  </div>
+                  <div id="item-icon">
+                     <img src="assets/img/icons8-bag-48.png" alt="" srcset="">
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="cart product">
+              <div class="txt-tsale tproduct">
+                Total Product
+              </div>
+              <div class="num-cart numb-prd">
+                <div id="prd-num">111</div>
+                <div id="prd-icon">
+                  <img src="assets/img/icons8-basket-100.png" alt="" srcset="">
+                </div>
+              </div>
+            </div>
+            <div class="cart cust">
+              <div class="txt-tsale cust">
+                 Total Customers
+              </div>
+               <div class="num-cart num-amt num-cust">
+                <div id="num-cust">
+                  558
+                </div>
+                <div id="cust-icon">
+                  <img src="assets/img/icons8-users-48.png" alt="" srcset="">
+                </div>
+               </div>
+            </div>
+            <div class="cart amt item order">
+              <div class="txt-tsale tamt titem torder">
+                Total Orders
+              </div>
+                <div class="num-cart num-item num-orders">
+                  <div id="num-order">
+                    31118
+                  </div>
+                  <div id="order-icon">
+                     <img src="assets/img/icons8-handshake-48.png" alt="" srcset="">
+                  </div>
+                </div>
+            </div>
+          </div>
+    </div>
+    <!-- The End of the main Body -->
+    <div class="middle-sales">
+      <div class="add-on"></div>
+      <div class="title">
+        Sales/Billing
+      </div>
+      <div class="item-block">
+        <div class="header">
+          <h2> New Orders</h2>
+       </div>
+       <div class="order-body">
+         <div class="date">
+          <label id="order-id" for="">Order Date</label>
+          <input type="date" name="" id="date-time">
+         </div>
+         <div class="cust-name">
+           <label id="custo" for="">Customer Name</label>
+           <input type="text" name="" id="cust-text" placeholder="Customer Name">
+         </div>
+         <div class="order-list">
+              <div class="mk-list">
+                  <h2>Make a order list</h2>
+              </div>
+              <div class="label-list">
+                  <div id="item">Item Name</div>
+                  <div id="qty">Quantity</div>
+                  <div id="price">Price</div>
+            </div>
+              <div class="add-list-item">
+                <div class="list-item">
+               <input type="text" name="" id="input-text">
+               <input type="number" name="" id="qty-input">
+               <input type="number" name="" id="price-input">
+               
+                </div>
+                <div class="addplus">
+                  <button id="add">Add+</button>
+                </div>
+              </div>
+              <hr>
+              <div class="add-item">
+                <div class="label-list">
+                  <div id="item">Item Name</div>
+                  <div id="qty">Quantity</div>
+                  <div id="price">Price</div>
+                  <div id="total">Total</div>
+              </div>
+              </div>
+              <div class="container">
+                <div class="container-input">
+                
+
+            </div>
+            <!-- <div class="add remove">
+              <button id="totalAmount" >Total Amount</button>
+            </div>    -->
+          </div>
+         </div>
+         <div class="tprice">
+            <div class="subtotal">
+              <label id="sub" for="">Total (N):</label>
+              <input type="number" name="" id="sub-numb" readonly="true">
+            </div>
+            <div class="per">
+              <label id="percent" for="">GST(1.8%)</label>
+              <input type="number" name="" id="per-num">
+            </div>
+            <div class="print">
+              <button id="print">PRINT</button>
+            </div>
+         </div>
+       </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/stores.js"></script>
+  <!-- function getInputValues() {
+    // Find input fields, store them in a constant
+    const inputFields = document.querySelectorAll("#myForm input[type='text']");
+    // Create empty inputValues array
+    const inputValues = [];
+    // Loop through input fields
+    for (let i = 0; i < inputFields.length; i++) {
+      // Push values of each input field into an array
+      inputValues.push(inputFields[i].value);
+    }
+    // Log array in the console
+    console.log(inputValues);
+  } -->
+</body>
+</html>
